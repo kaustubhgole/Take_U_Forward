@@ -1,1 +1,17 @@
+def Pattern_7(n):
+    for _ in range(n):
+        print(' '*(n-_+1),end='')
+        print('*'*(2*_+1),end='')
+        print(' '*(n-_+1),end='')
+        print()
+    return
+Pattern_7(5)
+
+Resukt:
+    *
+   ***
+  *****
+ *******
+*********
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
