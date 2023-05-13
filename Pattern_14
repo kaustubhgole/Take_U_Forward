@@ -1,1 +1,20 @@
+def Pattern_14(n):
+    lett='A'
+    for _ in range(n):
+        num=ord(lett)
+        for i in range(_+1):
+            print(chr(num),end='')
+            num+=1
+        print()
+    return
+
+Pattern_14(5)
+
+Result:
+A
+AB
+ABC
+ABCD
+ABCDE
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
