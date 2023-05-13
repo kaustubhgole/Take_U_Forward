@@ -1,1 +1,20 @@
+def Pattern_10(n):
+    for _ in list(range(n))+list(reversed(range(n-1))):
+        print('*'*(_+1),end='')
+        print()
+    return
+    
+Pattern_10(5)
+
+Result:
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
