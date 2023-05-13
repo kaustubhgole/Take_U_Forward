@@ -1,1 +1,20 @@
+def Pattern_17(n):
+    lett='A'
+    for _ in range(n):
+        num=ord(lett)
+        print(' '*(n-_),end='')
+        for i in list(range(num,num+_+1))+list(reversed(range(num,num+_))):
+            print(chr(i),end='')
+        print(' '*(n-_),end='')
+        print()
+    return
+    
+Pattern_17(5)
+
+Result:
+   A
+  ABA
+ ABCBA
+ABCDCBA
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
