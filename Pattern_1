@@ -3,7 +3,14 @@ for i in range(5):
     for j in range(5):
         sys.stdout.write('*'),
     print()
-    
+# Above is very long code. I have learned something new.
+# Below code is following programming standards as well
+
+def p1(n):
+   for _ in range(n):
+       print('*'*n,end='')
+       print()
+   return
     
 #Result:
 # *****
@@ -11,3 +18,5 @@ for i in range(5):
 # *****
 # *****
 # *****
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.
