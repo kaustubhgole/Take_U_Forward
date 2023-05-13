@@ -1,1 +1,17 @@
+def Pattern_5(n):
+    for _ in reversed(range(n)):
+        print('*'*_,end='')
+        print()
+    return
+    
+    
+Pattern_5(5)
+
+Result:
+*****
+****
+***
+**
+*
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
