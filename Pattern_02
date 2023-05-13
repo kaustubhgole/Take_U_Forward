@@ -1,2 +1,16 @@
+def Pattern_02(n):
+    for _ in range(n):
+        print('*'*_,end='')
+        print()
+     return
+
+
+
+Result:
+*
+**
+***
+****
+*****
 
 #NOTE: My codes may return indention errors, please use these codes as referance only.
