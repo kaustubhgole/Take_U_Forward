@@ -1,1 +1,17 @@
+def Pattern_03(n):
+    for _ in range(n):
+        for i in range(_+1):
+            print(i,end='')
+        print()
+    return
+
+Pattern_03(5)
+
+Result:
+1
+12
+123
+1234
+12345
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
