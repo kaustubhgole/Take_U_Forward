@@ -1,1 +1,23 @@
+def Pattern_11(n):
+    yes=True
+    for _ in range(n):
+        for i in range(_+1):
+            if yes:
+                print('1',end=' ')
+                yes=False
+            else:
+                print('0',end=' ')
+                yes=True
+        print()
+    return
+    
+Pattern_11(5)
+
+Result:
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
