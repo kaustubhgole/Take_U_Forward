@@ -4,6 +4,7 @@ def Pattern_02(n):
         print()
      return
 
+Pattern_02(5)
 
 
 Result:
