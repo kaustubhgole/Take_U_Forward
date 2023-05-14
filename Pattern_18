@@ -1,1 +1,15 @@
+def Pattern_18(n):
+    for _ in range(n):
+        print()
+    reutrn
+    
+Pattern_18(5)
+
+Result:
+E
+D E
+C D E
+B C D E
+A B C D E
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
