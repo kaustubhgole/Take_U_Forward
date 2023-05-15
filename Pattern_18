@@ -1,7 +1,12 @@
 def Pattern_18(n):
+    lett='A'
+    num=ord(lett)+n-1
     for _ in range(n):
+        for i in range(_+1):
+            print(chr(num+i),end=' ')
+        num-=1
         print()
-    reutrn
+    return        
     
 Pattern_18(5)
 
