@@ -1,1 +1,19 @@
+def Pattern_21(n):
+    for _ in range(n):
+        for i in range(n):
+            if (_==0 or i==0 or _==n-1 or i==n-1):
+                print('*',end='')
+            else:
+                print(' ',end='')
+        print()
+    return
+    
+Pattern_21(4)
+
+Result:
+* * * *
+*     *
+*     *
+* * * *
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
