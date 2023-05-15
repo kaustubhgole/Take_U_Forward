@@ -1,1 +1,24 @@
+def Pattern_22(n):
+    
+    for i in range(2*n-1):
+        for j in range(2*n-1):
+            left = j
+            top = i
+            right = (2*n-1)-1-i
+            bottom= (2*n-1)-1-j
+            print(n-min(min(left,right),min(top,bottom)),end=' ')
+        print()
+    return
+    
+Pattern_22(4)
+
+Result:
+4 4 4 4 4 4 4
+4 3 3 3 3 3 4
+4 3 2 2 2 3 4
+4 3 2 1 2 3 4
+4 3 2 2 2 3 4
+4 3 3 3 3 3 4
+4 4 4 4 4 4 4
+
 #NOTE: My codes may return indention errors, please use these codes as referance only.
