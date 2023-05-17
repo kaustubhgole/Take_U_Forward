@@ -1,0 +1,20 @@
+def Pattern_15(n):
+    lett='A'
+    for _ in reversed(range(n)):
+        num=ord(lett)
+        for i in range(_+1):
+            print(chr(num),end='')
+            num+=1
+        print()
+    return
+
+Pattern_15(5)
+
+Result:
+ABCDE
+ABCD
+ABC
+AB
+A
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.

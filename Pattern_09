@@ -1,0 +1,23 @@
+def Pattern_9(n):
+    for _ in list(range(n))+list(reversed(range(n))):
+        print(' '*(n-_+1),end='')
+        print('*'*(2*_+1),end='')
+        print(' '*(n-_+1),end='')
+        print()
+    return
+    
+Pattern_9(5)
+
+Result:
+    *
+   ***
+  *****
+ *******
+*********
+*********
+ *******
+  *****
+   ***
+    *
+  
+#NOTE: My codes may return indention errors, please use these codes as referance only.

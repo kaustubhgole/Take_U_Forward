@@ -1,0 +1,20 @@
+def Pattern_18(n):
+    lett='A'
+    num=ord(lett)+n-1
+    for _ in range(n):
+        for i in range(_+1):
+            print(chr(num+i),end=' ')
+        num-=1
+        print()
+    return        
+    
+Pattern_18(5)
+
+Result:
+E
+D E
+C D E
+B C D E
+A B C D E
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.

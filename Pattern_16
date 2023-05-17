@@ -1,0 +1,20 @@
+def Pattern_16(n):
+    lett='A'
+    num=ord(lett)
+    for _ in range(n):
+        for i in range(_+1):
+            print(chr(num),end='')
+        print()
+        num+=1
+    return
+    
+Pattern_16(5)
+
+Result:
+A
+BB
+CCC
+DDDD
+EEEEE
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.

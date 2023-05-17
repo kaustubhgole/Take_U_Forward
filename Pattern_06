@@ -1,0 +1,17 @@
+def Pattern_6(n):
+  for _ in reversed(range(n)):
+      for i in range(_+1):
+          print(i,end='')
+      print()
+  return
+    
+Pattern_6(5)
+
+Result:
+12345
+1234
+123
+12
+1
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.

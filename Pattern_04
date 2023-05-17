@@ -1,0 +1,16 @@
+def Pattern_4(n):
+    for _ in range(n):
+        for i in range(_+1):
+            print(_+1,end='')
+        print()
+    return
+    
+Pattern_4(5)
+Result:
+1
+22
+333
+4444
+55555
+
+#NOTE: My codes may return indention errors, please use these codes as referance only.
