@@ -1,0 +1,16 @@
+def reverse_number(n):
+    num=0
+    k=0
+    while(n>0):
+        k=n%10
+        num=num*10+k
+        n=int(n/10)
+    return num
+
+n=int(input())
+print(reverse_number(n))
+
+Result:
+
+input=1234
+output=4321
